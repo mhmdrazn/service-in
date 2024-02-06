@@ -1,0 +1,388 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+header.navbar-container {
+    width: 100%;
+    padding-block: 0.5rem;
+    gap: 1rem;
+    margin: auto;
+
+    flex: 1;
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    background-color: white;
+    
+}
+
+header.navbar-container .logo img {
+    width: 250px;
+    margin-left: 10rem  ;
+}
+
+header.navbar-container .navbar-list ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem 4rem;
+    margin-right: 10rem;
+}
+
+header.navbar-container .navbar-list li {
+    list-style-type: none;
+}
+
+header.navbar-container .navbar-list li a {
+    padding: 0.5rem 0.5rem;
+    border-radius: 100px;
+
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: bolder;
+    color: #FFA800;
+    font-weight: bolder;
+
+    transition: all 0.15s ease-in-out;
+}
+
+header.navbar-container .navbar-list li a:hover {
+    padding: 0.5rem 1.5rem;
+    background-color: #FFA800;
+    color: white;
+}
+
+main {
+    flex: 1;
+}
+
+main .lp-content {
+    flex: 1;
+    display: flex;
+    padding: 1rem 12rem;
+    padding-top: 10rem ;
+}
+
+main .lp-content .lp-content-description {
+    flex: 1 1;
+    margin-block: 3rem;
+}
+
+main .lp-content .lp-content-description h1 {
+    margin-block-start: 6rem;
+    margin-bottom: 3rem;
+
+    line-height: 4.5rem;
+    font-size: 4.5rem;
+    font-weight: 1500;
+    color: #FFA800;
+}
+
+main .lp-content .lp-content-description p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: normal;
+    margin-bottom: 2rem;
+}
+
+main .lp-content .lp-content-description button {
+    padding: 9px 30px;
+    background-color: #FFA800;
+    border-radius: 10px;
+    border-color: #FFA800;
+    border-style: none;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    color: white;
+
+    cursor: pointer;
+    transition: all 0.15s ease-in;        /* ini gak work */
+}
+
+main .lp-content .lp-content-description button:hover {
+    padding: 9px 30px;
+    background-color: white;
+    border-color: #FFA800;
+    border-width: 20px;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.2);
+
+    color: #FFA800;
+}
+
+
+main .lp-content .lp-img {
+    flex: 1;
+    display: flex;
+}
+
+main .lp-content .lp-img img {
+    width: 1000px;
+    margin-inline: auto;
+}
+
+.card {
+    padding: 25px 75px 35px 75px;
+    border-radius: 15px;
+    box-shadow: 0 0px 200px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 10px;
+}
+
+main .content {
+    flex: 1;
+    display: flex;
+
+    padding: 1rem 20rem;
+    flex-direction: column;
+}
+
+main .content .content-cover {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main .content .content-cover p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 2.25rem;
+    text-align: center;
+}
+
+main .content .content-cover h2 {
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+    color: #FFA800;
+    margin-top: 0px;
+}
+
+main .content .cover-img {
+    flex: 1;
+    display: flex;
+}
+
+main .content .cover-img img {
+    height: 615px;
+    align-self: center;
+    border-radius: 30px;
+    text-align: center;
+}
+
+main .content .content-page1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+main .content .content-page1 p {
+    font-size: 1.125rem;
+    font-weight: 300;
+    line-height: 1.67rem;
+    text-align: right;
+    margin-left: 0px;
+    margin-block: 3rem;
+}
+
+main .content .content-page1 h2 {
+    font-size: 2.9rem;
+    text-align: left;
+    font-weight: 100000;
+    color: #FFA800;
+    margin: auto;
+    line-height: 3rem;
+    margin-right: 3rem;
+    margin-block: 2rem;
+}
+
+main .content .page1-img {
+    flex: 1;
+    display: flex;
+}
+
+main .content .page1-img img {
+    height: 615px;
+    align-self: center;
+    border-radius: 30px;
+}
+
+main .content .content-page2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main .content .content-page2 p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.90rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+main .content .content-page2 h2 {
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+    color: #FFA800;
+    margin: 0.5rem 0px;
+}
+
+main .content .page2-img {
+    flex: 1;
+    display: flex;
+}
+
+main .content .page2-img img {
+    height: 615px;
+    align-self: center;
+    border-radius: 30px;
+}
+
+main .content .content-page3 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+main .content .content-page3 p {
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.90rem;
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+main .content .content-page3 h2 {
+    font-size: 2.9rem;
+    text-align: center;
+    font-weight: 900;
+    color: #FFA800;
+    margin: 0.5rem 0px;
+}
+
+main .content .page3-img {
+    flex: 1;
+    display: flex;
+}
+
+main .content .page3-img img {
+    height: 615px;
+    align-self: center;
+    border-radius: 30px;
+}
+
+main aside {
+    flex: 1;
+    display: flex;
+    inset-block: 0rem;
+    inset-inline-end: 0rem;
+    position: fixed;
+    margin: auto;
+    margin-inline-end: 2rem;
+    margin-block: 22rem;
+}
+
+main aside .social-media {
+    height: 100%;
+    border-radius: 15px;
+    background-color: white;
+    margin: auto;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3rem;
+}
+
+main aside .social-media ul {
+    border-radius: 15px;
+    margin: auto;
+    padding: 0.125rem 0.125rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+    justify-content: space-around;
+
+    transition: all 0.1s ease-in-out;
+}
+
+main aside .social-media ul:hover {
+    border-radius: 15px;
+    margin: auto;
+    padding: 0.125rem 0.125rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+main aside .social-media li {
+    list-style-type: none;
+}
+
+main aside .social-media li a {
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #FFA800;
+    line-height: 6rem;
+    margin: 1.5rem;
+
+    transition: all 0.2s ease-in-out;
+}
+
+main aside .social-media li a:hover {
+    text-decoration: none;
+    font-size: 2.9rem;
+    color: #FFA800;
+    line-height: 6rem;
+} 
+
+footer {
+    padding: 30px;
+    text-align: center;
+    font-weight: 900px;
+    background-color: #FFA800;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 786px) {
+    header.navbar-container {
+        flex-direction: column;
+    }
+
+    header.navber-container .nav-list ul {
+        flex-wrap: wrap;
+        column-gap: 0.5rem;
+    }
+
+    main {
+        padding: 1rem 3rem;
+    }
+
+    main .content {
+        flex-direction: column;
+        row-gap: 2rem;
+    }
+
+    main .content .comtent-description p {
+        font-size: 1rem;
+    }
+
+    main .content .content-image {
+        order: -1;                          /* default value dari order adalah 0, jika dikasih -1 maka akan berada pada urutan sebelum 0 yang ada di awal*/
+    }
+}
